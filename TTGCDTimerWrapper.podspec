@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   			:tag => '0.1'
   }
   s.source_files = 'TTGCDTimerWrapper.{h,m}'
+  s.requires_arc = true
 end
